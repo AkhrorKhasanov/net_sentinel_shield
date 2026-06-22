@@ -1,6 +1,5 @@
-use clap::error::ContextValue::String;
 use std::fs::{self, OpenOptions};
-use std::io::{BufRead, BufReader, Write};
+use std::io::{Write};
 
 #[cfg(target_os = "windows")]
 const HOSTS_PATH: &str = r"C:\Windows\System32\drivers\etc\hosts";
